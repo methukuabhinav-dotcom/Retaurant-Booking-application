@@ -1,0 +1,26 @@
+
+
+/* carousel styling */
+.carousel-inner .carousel-img{
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+}
+
+
+
+
+/* footer styling */
+.brnd-info{
+    border: 4px dotted gray;
+
+}
+.footer-icons .bi{
+    transition: all .3s linear;
+}
+.footer-icons .bi:hover{
+    color: gold;
+}
+.copyrights{
+    border: 4px dotted gray;
+}
