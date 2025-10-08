@@ -6,7 +6,18 @@
     height: 700px;
     overflow: hidden;
 }
-
+/* about us styles*/
+.aboutus-line{
+    display: inline-block;
+    width: 30px;
+    height: 5px;
+    color: gold;
+    background-color: gold;
+}
+.aboutus-img{
+    width: 650px;
+    height: 550px;
+}
 
 
 
