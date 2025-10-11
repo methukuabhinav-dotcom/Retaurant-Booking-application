@@ -18,7 +18,14 @@
     width: 650px;
     height: 550px;
 }
-
+/* contact stylings */
+.contact-banner{
+    width: 100%;
+    height: 600px;
+}
+.contact-right .btn{
+    background-color: gold;
+}
 
 
 /* footer styling */
