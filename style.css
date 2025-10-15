@@ -18,6 +18,26 @@
     width: 650px;
     height: 550px;
 }
+/* chef section */
+.award-card{
+    transition: all .2s linear;
+}
+.award-card:hover{
+    transform: translateX(20px);
+}
+.chef-img{
+    width: 550px;
+    height: 550px;
+}
+.img-container{
+    overflow: hidden;
+}
+.img-container img{
+    transition: transform 0.3s ease-in;
+}
+.img-container:hover img{
+    transform: scale(1.05);
+}
 /* contact stylings */
 .contact-banner{
     width: 100%;
@@ -25,6 +45,15 @@
 }
 .contact-right .btn{
     background-color: gold;
+}
+/* newsletter */
+.subscribe{
+    background-image: url(/assets/home-slide-1.jpg.webp);
+    object-fit: cover;
+    background-color: aqua;
+    background-blend-mode: multiply;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 
@@ -41,4 +70,17 @@
 }
 .copyrights{
     border: 4px dotted gray;
+}
+/* pricing stylings */
+.card-1{
+    border: 1px solid rgba(227, 227, 227, 0.863) ;
+    width: 400px;
+    height: 650px;
+    transition: all .3s linear;
+}
+.card-1:hover{
+    transform: translatey(-15px);
+}
+.card-1 .bi-1{
+    margin-left: 150px;
 }
